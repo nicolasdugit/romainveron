@@ -33,8 +33,10 @@
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Mapbox -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
 
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -133,8 +135,9 @@
                   <p class="lead">
                     Installés dans le tout nouveau pôle de soins d'Audenge, Romain Véron, Pierre Cholet et Yohann Boulvais vous acceuillent dans leur cabinet de <span class="text-primary font-weight-bold">Kinésitherapie</span> et d'<span class="text-primary font-weight-bold">Ostéopathie</span>.
                   </p>
+                  <p></p>
                   <p class="lead">
-                    2 avenue du Général de Gaulle, 33980 AUDENGE 
+                     
                   </p>
                 </div>
               </div>
@@ -385,7 +388,7 @@
   </section>
 
 
-  <div id="osteo" class="section-counter paralax-mf bg-image" style="background-image: url(img/interieur2.jpeg); height:300px;">
+  <div id="osteo" class="section-counter paralax-mf bg-image" style="background-image: url(img/rugby2.jpeg); background-position: top; height:300px;">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
@@ -408,7 +411,7 @@
 
 
   <!--/ Section Blog Star /-->
-  <section id="blog" class="blog-mf sect-pt4 route">
+  <section class="blog-mf sect-pt4 route">
     <div class="container">
 
       <div class="row">
@@ -436,7 +439,7 @@
   <!--/ Section Blog End /-->
 
   <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/exterieur1.jpeg)">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
@@ -447,61 +450,28 @@
                 <div class="col-md-6">
                   <div class="title-box-2">
                     <h5 class="title-left">
-                      Send Message Us
+                      Plan d'Accès
                     </h5>
                   </div>
+                    <!-- mapbox -->
                   <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
+        <div id='map' style="height: 400px !important;"  class=""></div>
+                      
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="title-box-2 pt-4 pt-md-0">
                     <h5 class="title-left">
-                      Get in Touch
+                      Contactez Nous
                     </h5>
                   </div>
                   <div class="more-info">
                     <p class="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                      expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                      mollitia inventore?
+                      Nous prenons les rendez vous par téléphone. N'hésitez pas à nous laisser un message vocal. <br>
                     </p>
                     <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                      <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
+                      <li><span class="ion-ios-location"></span> 8 avenue du Général de Gaulle, 33980 AUDENGE</li>
+                      <li><span class="ion-ios-telephone"></span> 05 56 26 39 07</li>
                       <li><span class="ion-email"></span> contact@example.com</li>
                     </ul>
                   </div>
@@ -520,6 +490,101 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section  class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+          <div class="box-shadow-full">
+            <div class="">
+              <h5 class="title-left" style="font-size: 1.5em !important;">Horaire d'ouverture</h5>
+            </div>
+            <!-- <section class="openinghours">
+              <div class="openinghourscontent section">
+                <div class="header">
+                  <h2>Opening hours</h2>
+                  <span id="open-status"><small class="openorclosed">We are</small></span>
+            
+                    </div> -->
+            <table class="opening-hours-table mt-4">
+                <tr id="Monday" itemprop="openingHours" title="Ouvert le Lundi de 9h à 18h">
+                    <td>Lundi</td>
+                    <td class="opens">09:00</td>
+                    <td>-</td>
+                    <td class="closes">18:00</td>
+                </tr>
+                <tr id="Tuesday" itemprop="openingHours" title="Ouvert le Mardi de 9h à 18h">
+                    <td>Mardi</td>
+                    <td class="opens">09:00</td>
+                    <td>-</td>
+                    <td class="closes">18:00</td>
+                </tr>
+                <tr id="Wednesday" itemprop="openingHours" title="Ouvert le Mercredi de 9h à 18h">
+                    <td>Mercredi</td>
+                    <td class="opens">09:00</td>
+                    <td>-</td>
+                    <td class="closes">18:00</td>
+                </tr>
+                <tr id="Thursday" itemprop="openingHours" title="Ouvert le Jeudi de 9h à 18h">
+                    <td>Jeudi</td>
+                    <td class="opens">09:00</td>
+                    <td>-</td>
+                    <td class="closes">20:00</td>
+                </tr>
+                <tr id="Friday" itemprop="openingHours" title="Ouvert le Vendredi de 9h à 18h">
+                    <td>Vendredi</td>
+                    <td class="opens">09:00</td>
+                    <td>-</td>
+                    <td class="closes">18:00</td>
+                </tr>
+                <tr id="Saturday" itemprop="openingHours" title="Ouvert le Samedi de 9h à 18h">
+                    <td>Samedi</td>
+                    <td class="opens">10:00</td>
+                    <td>-</td>
+                    <td class="closes">18:00</td>
+                </tr>
+                <tr id="Sunday" itemprop="openingHours" title="Ouvert le Dimanche de 9h à 18h">
+                    <td>Dimanche</td>
+                    <td class="opens">11:00</td>
+                    <td>-</td>
+                    <td class="closes">16:00</td>
+                </tr>
+            </table>
+        
+    <!-- </div> -->
+<!-- </section> -->
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="box-shadow-full">
+            <div class="title-box-2">
+              <h5 class="title-left" style="font-size: 1.5em !important;">Mode de paiement</h5>
+              <div class=" mt-5">
+                
+              <ul class="list-group list-group-flush" >
+                <li  class="list-group-item"><i class="fas fa-money-check pr-3"></i>Chèques</li>
+                <li class="list-group-item"><i class="fas fa-money-bill pr-3"></i>Espèces</li>
+                <li class="list-group-item"><i class="far fa-credit-card pr-3"></i>Cates bancaires</li>
+              </ul>
+              <h5 class=" mt-3 font-weight-bold" style="font-size: 1em !important;">Mutuelles et Tiers Payant :</h5>
+              <p class="text-justify mt-3">
+                Nous pratiquons le tiers payant. Vous n'avancez pas les sommes prises en charge par votre mutuelle, celle-ci nous règle directement.
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="box-shadow-full">
+            <div class="title-box-2">
+              <h5 class="title-left" style="font-size: 1.5em !important;">Facebook</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
     <footer class="bg-primary">
       <div class="container">
         <div class="row">
@@ -547,11 +612,15 @@
   <div id="preloader"></div>
 
 
+
+  
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="js/opening-hours.js"></script>
   <script src="lib/popper/popper.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
@@ -560,6 +629,8 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+  <script src="js/mapbox.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
