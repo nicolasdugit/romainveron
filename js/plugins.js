@@ -22,3 +22,19 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+$(document).ready(function(){
+  $(".txt-hover").click(function(){
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+
+  $(".txt-hover").hide()
+
+  $(".work-img ").hover(function(){
+    $(".txt-hover").show()
+  });
+
+});
