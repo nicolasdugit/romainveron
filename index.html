@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="fr-FR">
 
 <head>
@@ -33,10 +33,6 @@
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Mapbox -->
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -44,6 +40,14 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <!-- <link href="css/style-kine.css" rel="stylesheet"> -->
+
+  <!-- Mapbox -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -130,11 +134,13 @@
                 <div class="about-me pt-4 pt-md-0">
                   <div class="title-box-2">
                     <h5 class="title-left">
-                      Bienvenue
+                     Pôle de soins d'Audenge
                     </h5>
                   </div>
-                  <p class="lead">
-                    Installés dans le tout nouveau pôle de soins d'Audenge, Romain Véron, Pierre Cholet et Yohann Boulvais vous acceuillent dans leur cabinet de <span class="text-primary font-weight-bold">Kinésitherapie</span> et d'<span class="text-primary font-weight-bold">Ostéopathie</span>.
+                  <p class="">
+                    Le tout nouveau pôle de soins d'Audenge regroupe différents cabinets medicaux : kinésitherapeutes, ostéopathes, médecin généraliste, infirmiers, podologues et pédicures. Ces professionnels de santé sont installés au rez de chaussés de la résidence de Boissière, rue du Géneral de Gaule. </p>
+                    <p>
+                    Romain Véron, Pierre Cholet et Yohann Boulvais vous acceuillent dans leur cabinet de <span class="text-kine font-weight-bold">Kinésitherapie</span> et d'<span class="text-kine font-weight-bold">Ostéopathie</span>.
                   </p>
                   <p></p>
                   <p class="lead">
@@ -175,7 +181,7 @@
         <div class="col-sm-4 col-lg-4">
           <div class="testimonial-box">
             <div class="author-test">
-              <a href="notre-equipe.html"><img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+              <a href="notre-equipe.html"><img src="img/pierre.jpeg" alt="" class="rounded-circle b-shadow-a">
               <span class="author">Pierre Cholet</span></a>
               <h5 class="text-capitalize" style="color: white;">Masseur-kinésithérapeute</h5>
             </div>
@@ -184,7 +190,7 @@
         <div class="col-sm-4 col-lg-4">
           <div class="testimonial-box">
             <div class="author-test">
-              <a href="notre-equipe.html"><img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+              <a href="notre-equipe.html"><img src="img/yohann.jpeg" alt="" class="rounded-circle b-shadow-a">
               <span class="author">Yohann Boulvais</span></a>
               <h5 class="text-capitalize" style="color: white;">Masseur-kinésithérapeute</h5>
             </div>
@@ -243,9 +249,8 @@
                   <h6 class="category">Tapis de course</h6>
                 </div>
               </div>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec
+              <p class="card-description text-justify">
+                Matériel de kinésitherapie indispenable, cet appareil vous permet de courir à votre rythme en gardant les mêmes sensations que lors d'une course à pied en plein air.
               </p>
             </div>
           </div>
@@ -389,8 +394,23 @@
   </section>
 
 
-  <div id="osteo" class="section-counter paralax-mf bg-image" style="background-image: url(img/rugby2.jpeg); background-position: top; height:300px;">
+  <div id="osteo" class="section-counter paralax-mf bg-image" style="background-image: url(img/rugby2.jpeg); background-position: top; ">
     <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="col text-center">
+        <video  controls="controls">
+          <source src="img/VID-20181221-WA0002.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+        <p class="text-white pt-3">Vidéo de présentation de notre cabinet de kinésithérapie et d'ostéopathie. </p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--/ Section Blog Star /-->
+  <section class="blog-mf sect-pt4 route">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -401,19 +421,12 @@
             <p class="subtitle-a">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             </p>
-            <div class="line-mf bg-white"></div>
+            <div class="line-mf"></div>
           </div>
           
         </div>
         
       </div>
-    </div>
-  </div>
-
-
-  <!--/ Section Blog Star /-->
-  <section class="blog-mf sect-pt4 route">
-    <div class="container">
 
       <div class="row">
         <div class="col-md-12">
@@ -571,33 +584,26 @@
       </div>
     </div>
   </section>
-    <footer class="bg-primary">
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+     <div class="overlay-mf"></div>
+    <footer>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="copyright-box">
-              <p style="color: rgb(0, 120, 255);" class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-              <div class="credits" style="color: rgb(0, 120, 255);">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
-                Designed by <a style="color: rgb(0, 120, 255);" href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+              
             </div>
           </div>
         </div>
       </div>
     </footer>
   </section>
-  <!--/ Section Contact-footer End /-->
+ 
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
-
-
 
   
 
@@ -617,7 +623,6 @@
   <script src="lib/typed/typed.min.js"></script>
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
   <script src="js/mapbox.js"></script>
-  <script src="js/facebook.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
@@ -630,3 +635,4 @@
 </body>
 
 </html>
+
