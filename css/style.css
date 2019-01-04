@@ -1269,3 +1269,12 @@ footer .credits a {
 .text-kine {
   color: #031B4B;
 }
+
+.img-card {
+  color: rgb(102,102,102) !important;
+}
+
+.title-card {
+  color: rgb(102,102,102) !important;
+  /*font-size: 1.2em;*/
+}
