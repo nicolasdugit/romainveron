@@ -307,7 +307,7 @@ textarea {
 
 #intro2 .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(3, 27, 75, 0.4);
   position: absolute;
   height: 100%;
   width: 100%;
