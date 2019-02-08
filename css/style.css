@@ -1437,3 +1437,18 @@ footer .credits a {
   top: 0;
   left: 0;
 }
+
+
+@media (max-width: 768px) {
+  #logo-kine {
+  display: none;
+  }
+  #main-title {
+    font-size: 1.2em;
+  }
+  #intro2 h2 {
+    font-size: 32px !important;
+  }
+
+}
+
