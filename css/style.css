@@ -1441,7 +1441,9 @@ footer .credits a {
 
 @media (max-width: 768px) {
   #logo-kine {
-  display: none;
+  /* display: none; */
+  max-width: 50px;
+  max-height: 50px;
   }
   #main-title {
     font-size: 1.2em;
