@@ -193,7 +193,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #FFFFf0;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -705,7 +705,7 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  background-color: #FFF;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -772,7 +772,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 .work-box:hover img {
@@ -853,7 +853,7 @@ a:hover {
 .testimonial-box .comit {
   font-size: 2rem;
   color: #031B4B;
-  background-color: #fff;
+  background-color: #FFFFf0;
   width: 52px;
   height: 52px;
   display: block;
@@ -926,7 +926,7 @@ a:hover {
 .box-comments,
 .widget-sidebar {
   padding: 2rem;
-  background-color: #fff;
+  background-color: #FFFFf0;
   margin-bottom: 3rem;
 }
 
@@ -1028,7 +1028,7 @@ a:hover {
 }
 
 .sidebar-search input {
-  background-color: #fff;
+  background-color: #FFFFf0;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -1278,3 +1278,184 @@ footer .credits a {
   color: rgb(102,102,102) !important;
   /*font-size: 1.2em;*/
 }
+
+/* FAQ */
+.accordion {
+    margin-bottom: 1rem;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-item-header {
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.accordion-item-header h4 {
+    margin: 0;
+}
+
+.accordion-item-header h4 a {
+    position: relative;
+    display: block;
+    color: #222;
+}
+
+.accordion-item-header h4 a::after {
+    position: absolute;
+    font-family: Font Awesome\ 5 Free;
+    line-height: 1.8;
+    font-weight: 900;
+    font-size: .625rem;
+    content: "\f068";
+    right: 0;
+    top: 0;
+}
+
+.accordion-item-header h4 a.collapsed::after {
+    content: "\f067";
+}
+
+.accordion-item-body {
+    padding: 20px 20px 0;
+}
+
+.accordion-item-body > *:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-black .accordion-item-header {
+    background: #222;
+}
+
+.accordion-black .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.accordion-brand .accordion-item-header {
+    background: #505cfd;
+}
+
+.accordion-brand .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.accordion-new-gray .accordion-item-header {
+    background: #d8d8d8;
+}
+
+.accordion-new-gray .accordion-item-header h4 a {
+    color: #212529;
+}
+
+.accordion-new-white .accordion-item-header {
+    background: #fff;
+}
+
+.accordion-new-white .accordion-item-header h4 a {
+    color: #212529;
+}
+
+.accordion-primary .accordion-item-header {
+    background: #007bff;
+}
+
+.accordion-primary .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.accordion-secondary .accordion-item-header {
+    background: #6c757d;
+}
+
+.accordion-secondary .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.accordion-success .accordion-item-header {
+    background: #28a745;
+}
+
+.accordion-success .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.accordion-info .accordion-item-header {
+    background: #17a2b8;
+}
+
+.accordion-info .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.accordion-warning .accordion-item-header {
+    background: #ffc107;
+}
+
+.accordion-warning .accordion-item-header h4 a {
+    color: #212529;
+}
+
+.accordion-danger .accordion-item-header {
+    background: #dc3545;
+}
+
+.accordion-danger .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.accordion-light .accordion-item-header {
+    background: #f8f9fa;
+}
+
+.accordion-light .accordion-item-header h4 a {
+    color: #212529;
+}
+
+.accordion-dark .accordion-item-header {
+    background: #343a40;
+}
+
+.accordion-dark .accordion-item-header h4 a {
+    color: #fff;
+}
+
+.videoContainer {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  position: relative;
+}
+
+.videoContainer iframe {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+@media (max-width: 768px) {
+  #logo-kine {
+  /* display: none; */
+  max-width: 50px;
+  max-height: 50px;
+  }
+  #main-title {
+    font-size: 1.2em;
+  }
+  #intro2 h2 {
+    font-size: 32px !important;
+  }
+
+  .hide-for-iphone
+  {
+    display: none;
+  }
+
+}
+
