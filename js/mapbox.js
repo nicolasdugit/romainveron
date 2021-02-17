@@ -2,7 +2,7 @@ var kine = [-1.016126, 44.682886]
 var bassin = [-1.1409, 44.6965]
 
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoibmljb2xhc2R1cXVlc25lIiwiYSI6ImNqaTMyejI3ejE2dnUzdmxrdXBpMW5tM3MifQ.qeLFoY_OigVRg_GY5mul7A';
+mapboxgl.accessToken = 'pk.eyJ1Ijoibmljb2xhc2R1cXVlc25lIiwiYSI6ImNrbDlsbzFtbDBuY3gydmxic2E4d2ZmZTIifQ.SYOgLjleRuaWVYgnFAf-Qw';
 		var map = new mapboxgl.Map({
 		container: 'map',
 		center: kine,
